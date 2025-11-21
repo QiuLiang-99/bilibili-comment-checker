@@ -4,7 +4,7 @@
 // @author            hmjz100,xulaupuz,trychen
 // @namespace         github.com/hmjz100
 // @license           GPLv3
-// @description       《也许同类型中最好用？》系列 - B站评论区自动标注成分，支持动态和关注识别以及手动输入 UID 识别，默认标注包括 抽奖、原神、崩坏3、崩坏星穹铁道、绝区零、明日方舟、碧蓝航线、蔚蓝档案、鸣潮、战双帕弥什、尘白禁区、少女前线、少女前线2、NIKKE胜利女神、VTuber、王者荣耀、和平精英、三国杀、Minecraft、迷你世界、初生科技、火柴人、Roblox、火影忍者、暗区突围、香肠派对、穿越火线、地下城与勇士、绝地求生、英雄联盟、魔兽世界、CSGO、第五人格、蛋仔派对、GLITCH、彩虹六号：围攻、无畏契约、战争雷霆、Fate/Grand Order、女神异闻录: 夜幕魅影、MyGO/AveMujica、GBC、孤独摇滚、小马宝莉、孙笑川、电棍otto、这辈子有了、学生、互助、仙家军、伪成分。
+// @description       《也许同类型中最好用？》系列 - B站评论区自动标注成分，支持动态和关注识别以及手动输入 UID 识别，默认标注包括 抽奖、原神、崩坏3、崩坏星穹铁道、绝区零、明日方舟、碧蓝航线、蔚蓝档案、鸣潮、战双帕弥什、尘白禁区、少女前线、少女前线2、NIKKE胜利女神、VTuber、王者荣耀、和平精英、三国杀、Minecraft、迷你世界、初生科技、火柴人、Roblox、火影忍者、暗区突围、香肠派对、穿越火线、地下城与勇士、绝地求生、英雄联盟、魔兽世界、CSGO、第五人格、蛋仔派对、GLITCH、彩虹六号：围攻、无畏契约、战争雷霆、Fate/Grand Order、女神异闻录: 夜幕魅影、MyGO/AveMujica、GBC、孤独摇滚、小马宝莉、孙笑川、电棍otto、这辈子有了、学生、互助、仙家军、伪成分、三角洲行动。
 // @homepage          https://github.com/hmjz100/bilibili-comment-checker/
 // @supportURL        https://github.com/hmjz100/bilibili-comment-checker/issues
 // @match             *://*.bilibili.com/*
@@ -2240,7 +2240,23 @@
 			displayName: "互助",
 			displayIcon: "互",
 			keywords: ["互关", "互赞", "回赞", "回关", "不取关", "电磁力互助", "必回", "互相关注", "互相点赞"],
-		}
+		},
+						{
+			displayName: "三角洲行动",
+			displayIcon: "https://i1.hdslb.com/bfs/face/d86e9c7dcf8c0faf25b277a38d8103832556383f.jpg@128w_128h_1c_1s.webp",
+			keywords: ["三角洲行动", "三角洲", "酸角粥", "威龙", "麦晓雯", "老鼠", "踢死", "鼠鼠"],
+			followings: [
+				3494376565115651, // 三角洲行动官号
+				403637371, // 老飞宇66
+				11332884, // Key725
+				15362534, // Haruka_遙
+				11703718, // 米尔Miru
+				3546875066059052, // 高司令-速凌电竞
+				3546742700116050, // 杨齐家_
+				259650901, // 北极星跑刀课堂
+				331514361 // 苏醒游戏解说
+			]
+		},
 	]
 
 	const checkerSpecial = [
